@@ -95,7 +95,6 @@ export default function EditUserModal({
             </svg>
           </button>
         </div>
-
         <form onSubmit={handleSubmit} className="p-8 space-y-6">
           {status && (
             <div
